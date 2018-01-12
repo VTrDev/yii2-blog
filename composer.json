@@ -1,0 +1,21 @@
+{
+    "name": "vtrdev/yii2-blog",
+    "description": "Blog module for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","blog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Trusov",
+            "email": "trusov.public@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vtrdev\\blog\\": ""
+        }
+    }
+}
