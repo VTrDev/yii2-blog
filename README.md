@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist vtrdev/yii2-blog "*"
 or add
 
 ```
-"vtrdev/yii2-blog": "*"
+"vtrdev/yii2-blog": "master-dev"
 ```
 
 to the require section of your `composer.json` file.
