@@ -48,6 +48,12 @@ class BlogController extends Controller
         ]);
     }
 
+    public function actionTrulyalyalya()
+    {
+        //return '<h1>33 дня</h1>';
+        return $this->renderAjax('_form', ['model' => new Blog()]);
+    }
+
     /*public function actionSeed() {
         for ($i = 0; $i < 30; $i++) {
             $model = new Blog();

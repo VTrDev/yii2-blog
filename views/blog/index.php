@@ -14,7 +14,9 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="blog-index">
 
-    <?php Pjax::begin(); ?>
+    <?php Pjax::begin([
+        'enablePushState' => false
+    ]); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
@@ -66,4 +68,11 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
     ]); ?>
     <?php Pjax::end(); ?>
+
+    <?php Pjax::begin([
+        'enablePushState' => false
+    ]); ?>
+    <a href="/blog/blog/trulyalyalya" class="btn btn-xs btn-primary" data-pjax="0">жми сюда</a>
+    <?php Pjax::end(); ?>
+
 </div>
